@@ -9,7 +9,7 @@ st.set_page_config(page_title="MHT-CET 2025 Predictor", layout="centered")
 st.title("🎯 MHT-CET 2025 Percentile & Rank Predictor")
 st.subheader("Based on official 2025 data")
 st.caption("An initiative by **Jay Kshirsagar (Counsellor)**")
-st.markdown("For personalized guidance, contact **Edu Guide** on :red[Instagram:@edu_guide_studs],do follow us if use the predictor this will motivate us to continue our free service.")
+st.markdown("For updates, tips & personal counselling, follow us on Instagram, contact **Edu Guide** on :red[Instagram:@edu_guide_studs],do follow us if use the predictor this will motivate us to continue our free service.")
 st.markdown("Refresh the page for every prediction so u will see no erros,Peace :)")
 st.markdown("For any error during prediction please contact on above instagram id")
 
@@ -134,4 +134,7 @@ if st.session_state.submitted:
     if mumbai_admit == "Yes":
         st.success("🎉 Join our **Free Webinar** on Mumbai University Engineering College Admissions!")
         st.markdown("[👉 Click here to Join WhatsApp Group for serious students who want to take admission under Mumbai University College](https://chat.whatsapp.com/G5tLmoyRKJE4CjmegIGbBa)")
-        st.markdown("For personalized guidance, contact **Edu Guide** on :red[Instagram:@edu_guide_studs]")
+        st.markdown("📝 Interested in **Option Form Filling & College Selection Guidance**?")
+        if st.button("🎯 I want personalised college guidance"):
+         st.markdown("📌 [Fill this short form to get started](https://forms.gle/tLzGyd6dxBvABnnu5)")
+st.markdown("For personalized guidance, contact **Edu Guide** on :red[Instagram]:[@edu_guide_studs](https://www.instagram.com/edu_guide_studs/?igsh=MTdwb2p5ZnVtbGZqbA%3D%3D)")
